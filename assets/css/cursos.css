@@ -1,0 +1,48 @@
+.cursos {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem;
+}
+
+.cursos__titulo {
+    color: darkslategray;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.cursos__conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cursos__imagem {
+    width: 50%;
+    height: auto;
+}
+
+.cursos__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10%;
+    font-size: 1.5rem;
+    list-style: circle;
+}
+
+.cursos__itens {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.cursos__descricao {
+    width: 30%;
+    font-size: 1.5rem;
+    line-height: 2;
+    text-align: justify;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}

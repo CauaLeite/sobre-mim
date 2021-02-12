@@ -1,0 +1,33 @@
+.escola {
+    background-color: #00000f;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.escola__video {
+    width: 40%;
+    height: 350px;
+    border: black solid 2px;
+    margin: 3rem 0;
+}
+
+.escola__conteudo {
+    color: beige;
+    width: 40%;
+    padding: 3rem 0;
+}
+
+.escola__titulo {
+    border-bottom: beige solid 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.escola__descricao {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    text-align: justify;
+}

@@ -1,0 +1,29 @@
+.banner {
+    background-image: url(../img/dev-front-end.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.principal {
+    width:100%;
+    height:200px;
+    position:absolute;
+    top:50%;
+    margin-top:-100px;
+    text-align: center;
+    color: beige;
+    text-shadow: black 5px 5px 10px;
+}
+
+.principal__titulo {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.principal__descricao {
+    font-size: 2rem;
+    font-weight: 300;
+}
